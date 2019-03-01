@@ -4,7 +4,7 @@ import {
   PerspectiveCamera,
 } from 'three';
 import OrbitControls from 'orbit-controls-es6';
-import * as dat from 'dat.GUI';
+import * as dat from 'dat.gui';
 import Terrain from './Terrain';
 
 class App {

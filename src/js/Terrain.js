@@ -42,8 +42,10 @@ class Terrain {
   initGUI() {
     this.GUI.add(this.mesh.material.uniforms.u_amp, 'value', -10, 10)
       .name('Amplitude');
+    /*
     this.GUI.add(this.mesh.material.uniforms.u_center, 'value', -1, 1)
       .name('Center offset');
+      */
     this.GUI.add(this.mesh.material.uniforms.u_width, 'value', 0.0, 50.0)
         .name('Valley width');
     this.GUI.add(this.params, 'speed', 0.0, 0.01)
